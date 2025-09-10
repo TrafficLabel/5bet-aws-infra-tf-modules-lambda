@@ -1,5 +1,5 @@
 module "wrapper" {
-  source = "../"
+  source = "git::git@github.com:TrafficLabel/5bet-aws-infra-tf-modules-lambda.git?ref=v1.0.0"
 
   for_each = var.items
 
